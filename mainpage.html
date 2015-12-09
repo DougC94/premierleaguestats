@@ -3,66 +3,81 @@
 <head>
   <meta charset="UTF-8">
   <title>PremierLeagueStats.com: Home</title>
-    <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type="text/css">
+     <link rel="stylesheet" href="styles/bootstrap.css"/>
+    <script src="scripts/jquery.js"> </script>
+    <script src="scripts/bootstrap.js"> </script>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type="text/css">
     <link href="CSS/main.css" rel="stylesheet">
     <link href="CSS/normalise.css" rel="stylesheet">
 </head>
 <body>
-
-    <h1>Premier League Stats</h1>
-
-<p>Welcome to Premier League Stats. Here you can find all the facts, figures, stats and numbers from the Premier league, updated after every game day for the latest information. .</p>
-
-
-<h3>Top 3 Scoring teams</h3>
-<p>Like goals? Listed below are the top 3 current highest scoring teams. Click on a team name to get more information on their season so far.</p>
+    <center>
+<nav>
+    <ul>
+    <li><a href="mainpage.html">Home</a></li>
+    <li><a href="#">ChooseTeam</a>
+        <ul>
+        <li><a href="/Teams/arsenal.html">Arsenal</a></li>
+        <li><a href="/Teams/astonvilla.html">Aston Villa</a></li>
+        <li><a href="/Teams/bournemouth.html">Bournemouth</a></li>
+        <li><a href="/Teams/chelsea.html">Chelsea</a></li>
+        <li><a href="/Teams/crystalpalace.html">Crystal Palace</a></li>
+        <li><a href="/Teams/everton.html">Everton</a></li>
+        <li><a href="leicestercity.html">Leicester City</a></li>
+        <li><a href="/Teams/Liverpool.html">Liverpool</a></li>
+        <li><a href="/Teams/mancity.html">Manchester City</a></li>
+        <li><a href="/Teams/manutd.html">Manchester United</a></li>
+        <li><a href="/Teams/newcastle.html">Newcastle United</a></li>
+        <li><a href="/Teams/norwichcity.html">Norwich City</a></li>
+        <li><a href="/Teams/southhampton.html">Southampton</a></li>
+        <li><a href="/Teams/stokecity.html">Stoke City</a></li>
+        <li><a href="/Teams/sunderland.html">Sunderland</a></li>
+        <li><a href="/Teams/swanseacity.html">Swansea City</a></li>
+        <li><a href="/Teams/tottenham.html">Tottenham Hotspurs</a></li>
+        <li><a href="/Teams/watford.html">Watford</a></li>
+        <li><a href="/Teams/westbrom.html">West Bromish Albion</a></li>
+        <li><a href="/Teams/westham.html">West Ham</a></li>
+        </ul></li>
+        <li><a href="#">ChooseIndividualStat</a>
+        <ul>
+        <li><a href="topscorer.html">Top Scorer</a></li>
+        <li><a href="#">Top Assister</a></li>
+        <li><a href="#">Most Clean Sheets</a></li>
+        </ul> </li>      
+    </ul>
+    <form>
+        <input class="input" type="text" placeholder="Search.." required>
+        <input class="search" type="button" value="Search"> 
+    </form>
     
-<ul>
-<li><p><a href="leicestercity.html">Leicester City</a></p></li>
-<li><p><a href="mancity.html">Manchester City</a></p></li>
-<li><p><a href="everton.html">Everton</a></p></li>    
-</ul>
+</nav>
+    <div>
+        <h1>Premier League Statistics</h1>
+        <p>Welcome to Premier League Stats. Here you can find all the facts, figures, stats and numbers from the Premier league, updated after every game day for the latest information. .</p>
+    </div>
 
-<h3>Top 3 Defences</h3>
-<p>Like a sold back line? Below are the top 3 current teams with the best defensive records. Click on a link to view their statistics.</p>
+    <div class="scorers">
+        <h3>Top 3 Scoring teams</h3>
+        <p>Like goals? Listed below are the top 3 current highest scoring teams. Click on a team name to get more information on their season so far.</p>
 
-<ul>
-<li><p><a href="manutd.html">Manchester United</a></p></li>
-<li><p><a href="tottenham.html">Tottenham Hotspurs</a></p></li>
-<li><p><a href="arsenal.html">Arsenal</a></p></li>
-</ul>
+        <ul class="topscorer">
+            <li><p><a href="leicestercity.html">Leicester City</a></p></li>
+            <li><p><a href="mancity.html">Manchester City</a></p></li>
+            <li><p><a href="everton.html">Everton</a></p></li>    
+        </ul>
+        <img src="Teams/Images/vardy.jpg" alt="Vardy and Mahrez;">
+        </div>
+<div class="defence">
+        <h3>Top 3 Defences</h3>
+        <p>Like a sold back line? Below are the top 3 current teams with the best defensive records. Click on a link to view their statistics.</p>
 
-
-
-<h3>Full list of Teams</h3>
-<ul>
-<li><p><a href="/Teams/arsenal.html">Arsenal</a></p></li>
-<li><p><a href="/Teams/astonvilla.html">Aston Villa</a></p></li>
-<li><p><a href="/Teams/bournemouth.html">Bournemouth</a></p></li>
-<li><p><a href="/Teams/chelsea.html">Chelsea</a></p></li>
-<li><p><a href="/Teams/crystalpalace.html">Crystal Palace</a></p></li>
-<li><p><a href="/Teams/everton.html">Everton</a></p></li>
-<li><p><a href="leicestercity.html">Leicester City</a></p></li>
-<li><p><a href="/Teams/Liverpool.html">Liverpool</a></p></li>
-<li><p><a href="/Teams/mancity.html">Manchester City</a></p></li>
-<li><p><a href="/Teams/manutd.html">Manchester United</a></p></li>
-<li><p><a href="/Teams/newcastle.html">Newcastle United</a></p></li>
-<li><p><a href="/Teams/norwichcity.html">Norwich City</a></p></li>
-<li><p><a href="/Teams/southhampton.html">Southampton</a></p></li>
-<li><p><a href="/Teams/stokecity.html">Stoke City</a></p></li>
-<li><p><a href="/Teams/sunderland.html">Sunderland</a></p></li>
-<li><p><a href="/Teams/swanseacity.html">Swansea City</a></p></li>
-<li><p><a href="/Teams/tottenham.html">Tottenham Hotspurs</a></p>
-</li>
-<li><p><a href="/Teams/watford.html">Watford</a></p></li>
-<li><p><a href="/Teams/westbrom.html">West Bromish Albion</a></p></li>
-<li><p><a href="/Teams/westham.html">West Ham</a></p></li>
-    
-</ul>
-    
-<h4>CONTACT US</h4>
-
-<p>1.555.678.987</p>
-<p>contact@theblueleopa.rd</p>
+        <ul>
+            <li><p><a href="manutd.html">Manchester United</a></p></li>
+            <li><p><a href="tottenham.html">Tottenham Hotspurs</a></p></li>
+            <li><p><a href="arsenal.html">Arsenal</a></p></li>
+        </ul>
+        <img src="Teams/Images/manutd.jpg" alt="Machester United;">
+    </div>
+        </center>
 </body>
 </html>
